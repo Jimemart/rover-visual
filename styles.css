@@ -1,0 +1,43 @@
+
+.center{
+  width: 1000px;
+  margin: 0 auto;
+}
+#board{
+  height: 900px;
+  width: 900px;
+  background-image: url("images/Mars.svg");
+  background-size: cover;
+
+}
+.cell{
+  width: 8%;
+  height: 8%;
+  display: inline-block;
+  margin: 5px 7px 5px 7px;
+  
+  box-sizing: border-box;
+
+}
+.rover{
+  background-image: url('images/RoverBack.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.roverLeft{
+  background-image: url('images/RoverLeft.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.roverRight{
+  background-image: url('images/Roverright.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.roverAba{
+
+  background-image: url('images/Rover.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
